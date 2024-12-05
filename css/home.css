@@ -1,0 +1,252 @@
+/* Global Styles */
+body {
+    background-color: #ffffff;
+    font-family: 'Poppins', 'Raleway';
+    margin: 0;
+    padding: 0;
+}
+nav {
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: none;
+    z-index: 1000;
+}
+nav.scrolled{
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.nav-link {
+    margin-right: 32px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.nav-link.active {
+    color: #0C4A93;
+}
+
+/* Hero Section */
+.hero {
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C5E5F7;
+    padding: 64px;
+    height: 730px;
+    position: relative;
+}
+.hero .title {
+    /* padding-top: 100px; */
+    max-width: 50%;
+}
+.hero .title .chip {
+    max-width: fit-content;
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway';
+    font-size: 24px;
+    color: #A86910;
+    background-color: #F7E2C5;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.hero .title img {
+    width: 24px;
+    height: 24px;
+}
+.hero h1 {
+    font-size: 60px;
+    font-family: 'Poppins';
+    margin: 20px 0;
+    line-height: 1.2;
+    color: #002D62;
+}
+.hero .highlight {
+    color: #F4A623;
+}
+.hero p {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #444;
+}
+.hero .btn-primary {
+    font-size: 18px;
+    width: 310px;
+    height: 50px;
+}
+
+/* Hero Image */
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Kelebihan */
+.kelebihan{
+    position: absolute;
+    bottom: -90px;
+    left: 30%;
+    transform: translateX(-20%);
+    align-items: center;
+    display: flex;
+    background-color: #002D62;
+    padding: 30px 40px;
+    border-radius: 20px;
+    gap: 10px;
+
+}
+.kelebihan .senang{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+    gap: 10px;
+}
+.kelebihan .mudah{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+    gap: 10px; 
+}
+.kelebihan .teks h3{
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.kelebihan .teks p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.kelebihan img{
+    align-items: center;
+}
+/* Modul Materi Swan */
+.materi{
+    padding-top: 170px;
+}
+.materi .header h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #002D62;
+}
+.materi .header p{
+    margin: 9px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #686868;
+}
+.materi .cards{
+    position: absolute;
+    padding-top: 40px;
+    display: flex;
+    gap: 50px;
+    margin: 0px 64px;
+    align-items: center;
+    right: 50%;
+    transform: translateX(55%);
+}
+/* kelebihan swan */
+.plus{
+    padding-top: 500px;  
+}
+.plus .cont{
+    display: flex; 
+    gap: 150px;
+    background-color: #FDF8EE;
+    padding: 30px;
+    align-items: center;
+}
+.plus .cont img{
+    margin: 0px 64px;
+}
+
+.plus .cont .advantages{
+    display: block;
+}
+.plus .cont .gambar{
+    background-color: #6793C5;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    max-width:fit-content;
+    max-height: fit-content;
+}
+
+.plus .cont .teks h3{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+}
+.plus .cont .teks p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 26px;
+    color: #8A8A8A;
+    
+}
+.plus .cont .advantages h1{
+    font-size: 69px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #002D62;
+}
+.plus .cont .advantages .modul{
+    display: flex;
+    gap: 20px;
+}
+.plus .cont .advantages .experience{
+    display: flex;
+    gap: 20px;
+}
+.belbud{
+    width: 1090px;
+    height: 350px;
+    margin-top: 60px;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+/* footer */
+.footer{
+    padding-top: 500px;
+}
+.footer .isi{
+    display: flex;
+    background-color: #C5E5F7;
+    padding: 35px 64px;
+    font-family: 'Poppins';
+    gap: 200px;
+}
+.footer .isi .tentang p{
+    padding-top: 20px;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: justify;
+}
+.footer .isi .courses h3{
+  font-family: 'Poppins';
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+.footer .isi .courses ul{
+    list-style: none;  
+    gap: 10px;
+}
+.footer .isi .courses a{
+    text-decoration: none;
+    color: #000;
+    font-size: 19px;
+}

@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    background-color: #ffffff;
+    font-family: 'Poppins', 'Raleway';
+    margin: 0;
+    padding: 0;
+}
+nav {
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: none;
+    z-index: 1000;
+}
+nav.scrolled{
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.nav-link {
+    margin-right: 32px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.nav-link.active {
+    color: #0C4A93;
+}
+
+.hernus{
+    background-repeat: no-repeatx;
+    max-width: 100%;
+}
+/* Header materi */
+.header h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #002D62;
+}
+.header p{
+    margin: 9px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #686868;
+}
+/* cards */
+.kartu {
+    display: flex;
+    gap: 16px;
+    justify-content: center; 
+    align-items: flex-start; 
+    margin: 16px 64px; 
+    flex-wrap: wrap;
+  }
+  .kartu a{
+    text-decoration: none;
+  }
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* overflow: hidden; */
+    text-align: start;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opsional */
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 16px;
+  }
+  .card h3{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+  }
+  .card p{
+    font-size: 16px;
+    font-family: 'Raleway';
+  }
+/* footer */
+.footer{
+   margin-top: 200px;
+}
+.footer .isi{
+    display: flex;
+    background-color: #C5E5F7;
+    padding: 35px 64px;
+    font-family: 'Poppins';
+    gap: 200px;
+}
+.footer .isi .tentang p{
+    padding-top: 20px;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: justify;
+}
+.footer .isi .courses h3{
+  font-family: 'Poppins';
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+.footer .isi .courses ul{
+    list-style: none;  
+    gap: 10px;
+}
+.footer .isi .courses a{
+    text-decoration: none;
+    color: #000;
+    font-size: 19px;
+}

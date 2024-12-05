@@ -1,0 +1,93 @@
+* Global Styles */
+body {
+    background-color: #ffffff;
+    font-family: 'Poppins', 'Raleway';
+    margin: 0;
+    padding: 0;
+}
+nav {
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: none;
+    z-index: 1000;
+}
+nav.scrolled{
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.nav-link {
+    margin-right: 32px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.nav-link.active {
+    color: #0C4A93;
+}
+.hernus{
+    background-repeat: no-repeatx;
+    max-width: 100%;
+}
+.isi{
+    margin-left: 64px;
+    margin-right: 64px;
+}
+.isi h2{
+    font-size: 32px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #002D62;
+}
+.isi p{
+    text-align: justify;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: #686868;
+}
+.isi .yt{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.isi button{
+    font-size: 20px;
+    font-weight: 600;
+    width: 300px;
+    font-family: 'Poppins';
+}
+
+/* footer */
+.footer{
+    margin-top: 200px;
+ }
+ .footer .fill{
+     display: flex;
+     background-color: #C5E5F7;
+     padding: 35px 64px;
+     font-family: 'Poppins';
+     gap: 200px;
+ }
+ .footer .fill .tentang p{
+     padding-top: 20px;
+     font-size: 19px;
+     font-weight: 500;
+     text-align: justify;
+ }
+ .footer .fill .courses h3{
+   font-family: 'Poppins';
+   font-size: 28px;
+   font-weight: 600;
+   margin-left: 30px;
+ }
+ .footer .fill .courses ul{
+     list-style: none;  
+     gap: 10px;
+ }
+ .footer .fill .courses a{
+     text-decoration: none;
+     color: #000;
+     font-size: 19px;
+ }
